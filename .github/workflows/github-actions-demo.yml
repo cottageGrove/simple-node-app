@@ -31,7 +31,7 @@ jobs:
     - id: auth
       uses: google-github-actions/auth@v0.4.1
       with:
-        credentials_json: "AIzaSyA7SUuVdnrxF_sCKWfki3qQwWqOIA-nB3U"
+        credentials_json: AIzaSyA7SUuVdnrxF_sCKWfki3qQwWqOIA-nB3U
 
     # Setup gcloud CLI
     - uses: google-github-actions/setup-gcloud@master
