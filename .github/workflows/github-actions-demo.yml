@@ -29,8 +29,8 @@ jobs:
 
     - uses: google-github-actions/setup-gcloud@v0.3.0
       with:
-        service_account_key: ${{ secrets.GKE_SA_KEY }}
-        project_id: ${{ secrets.GKE_PROJECT }}
+        service_account_key: 5e05ab3376e5401905bdc3a5e1f38444b4a68a7b
+        project_id: ringed-cell-334517
 
     # Setup gcloud CLI
     - uses: google-github-actions/setup-gcloud@master
