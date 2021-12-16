@@ -15,7 +15,7 @@ env:
   GKE_CLUSTER: node-cluster    # Add your cluster name here.
   GKE_ZONE: us-west1-a  # Add your cluster zone here.
   DEPLOYMENT_NAME:  node-server # Add your deployment name here.
-  IMAGE: static-site
+  IMAGE: node-sample-app
 
 jobs:
   setup-build-publish-deploy:
