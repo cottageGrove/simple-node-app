@@ -29,7 +29,7 @@ jobs:
 
     - uses: google-github-actions/setup-gcloud@master
       with:
-        service_account_key: yo
+        service_account_key: 'yo'
         project_id: ringed-cell-334517
 
     # Setup gcloud CLI
