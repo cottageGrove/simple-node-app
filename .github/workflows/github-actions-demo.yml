@@ -65,7 +65,7 @@ jobs:
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
       run: |-
-        ./kustomize edit set us-west1-docker.pkg.dev/ringed-cell-334517/getting-started-repo/node-sample-app:$GITHUB_SHA
-        ./kustomize build . | kubectl apply -f -
+        edit set us-west1-docker.pkg.dev/ringed-cell-334517/getting-started-repo/node-sample-app:$GITHUB_SHA
+        build . | kubectl apply -f -
         kubectl rollout status deployment/node-server
         kubectl get services -o wide
